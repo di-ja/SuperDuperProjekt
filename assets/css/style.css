@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+/* font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif; */
+/* farbe: #333, #fff, #3dc8d5, #8507e1, #ccc */
+html {
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+section:nth-of-type(1) {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    height: 100vh;
+}
+/*   Logo   */
+header h1 {
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
+    padding: 14px 20px 0;
+    color: white;
+    letter-spacing: 4px;
+}
+/*   Verlauf   */
+section:nth-child(1) article {
+    background: linear-gradient(to bottom left, #3dc8d5, #8507e1);
+    border-radius: 6px;
+    width: 400px;
+    margin-top: 22vh;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 10px black;
+}
+/*   Verlauf hover   */
+section:nth-child(1) article:hover {
+    background: linear-gradient(to bottom left,  #8507e1, #3dc8d5);
+    box-shadow: 5px 5px 10px black;
+}
+/*   h1 CreativeFresh   */
+article h1:nth-of-type(1) {
+    font-family: 'Gilda Display', serif;
+    font-size: 5.2em;
+    letter-spacing: 1px;
+    line-height: 1.15em;
+    text-align: justify;
+    color: white;
+    margin: 0;
+    padding: 16px 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*   txt _ We Love...   */
+article h2:nth-of-type(1) {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    margin: 0;
+    padding: 0  20px 15px;
+}
+/*   Navigation   */
+nav ul {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: right;
+    list-style-type: none;
+    margin-top: 27vh;
+    margin-right: 5%;
+}
+/*   Navigation a   */
+li a {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+/*   Navigation a hover   */
+li a:hover {
+    color: rgba(255, 255, 255, 0.4);
+} 
+/*   2.Section   */
+section:nth-of-type(2) {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(../img/PROJECTS.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 18vh; 
+}
+section:nth-of-type(2) h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 4em;
+    padding: 30vh 5% 5vh;
+}
+p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #333;
+    background: none;
+    padding: 0 5%;
+}
+/*   3.Section   */
+section:nth-of-type(3) {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+section:nth-of-type(3) h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 3em;
+    margin: 30px 15% 0;
+    padding: 0;
+}
+section:nth-of-type(3) p {
+    padding: 0 0 30vh;
+    margin: 0 15%;
+    text-transform: uppercase;
+}
+section article div:last-of-type p {
+    padding: 0 0 12vh;
+}
